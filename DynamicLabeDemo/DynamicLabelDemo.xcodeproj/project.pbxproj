@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B8AE248D1DFE690600A468C4 /* DynamicLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8AE248D1DFE690600A468C4 /* DynamicLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AE24911DFE690600A468C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8AE24931DFE690600A468C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8AE24941DFE690700A468C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		B8AE248E1DFE690600A468C4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B8AE248D1DFE690600A468C4 /* DynamicLabel.app */,
+				B8AE248D1DFE690600A468C4 /* DynamicLabelDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B8AE248C1DFE690600A468C4 /* DynamicLabel */ = {
+		B8AE248C1DFE690600A468C4 /* DynamicLabelDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8AE24A41DFE690700A468C4 /* Build configuration list for PBXNativeTarget "DynamicLabel" */;
+			buildConfigurationList = B8AE24A41DFE690700A468C4 /* Build configuration list for PBXNativeTarget "DynamicLabelDemo" */;
 			buildPhases = (
 				B8AE24891DFE690600A468C4 /* Sources */,
 				B8AE248A1DFE690600A468C4 /* Frameworks */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = DynamicLabel;
+			name = DynamicLabelDemo;
 			productName = DynamicLabel;
-			productReference = B8AE248D1DFE690600A468C4 /* DynamicLabel.app */;
+			productReference = B8AE248D1DFE690600A468C4 /* DynamicLabelDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B8AE24881DFE690500A468C4 /* Build configuration list for PBXProject "DynamicLabel" */;
+			buildConfigurationList = B8AE24881DFE690500A468C4 /* Build configuration list for PBXProject "DynamicLabelDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -131,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B8AE248C1DFE690600A468C4 /* DynamicLabel */,
+				B8AE248C1DFE690600A468C4 /* DynamicLabelDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -274,7 +274,7 @@
 				INFOPLIST_FILE = DynamicLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sjgz.DynamicLabel;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DynamicLabelDemo;
 			};
 			name = Debug;
 		};
@@ -285,14 +285,14 @@
 				INFOPLIST_FILE = DynamicLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sjgz.DynamicLabel;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DynamicLabelDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B8AE24881DFE690500A468C4 /* Build configuration list for PBXProject "DynamicLabel" */ = {
+		B8AE24881DFE690500A468C4 /* Build configuration list for PBXProject "DynamicLabelDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8AE24A21DFE690700A468C4 /* Debug */,
@@ -301,13 +301,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8AE24A41DFE690700A468C4 /* Build configuration list for PBXNativeTarget "DynamicLabel" */ = {
+		B8AE24A41DFE690700A468C4 /* Build configuration list for PBXNativeTarget "DynamicLabelDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8AE24A51DFE690700A468C4 /* Debug */,
 				B8AE24A61DFE690700A468C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
