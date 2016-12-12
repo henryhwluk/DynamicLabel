@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "DynamicLabel"
   s.version      = "0.0.1"
-  s.summary      = "A short description of DynamicLabel."
+  s.summary      = "label滚动展示."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -90,8 +90,8 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
+  s.source_files  = "Classes/*.{h,m}"
 
-  s.source_files  = "Classes", "Pod/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
