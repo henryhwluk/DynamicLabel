@@ -13,7 +13,7 @@ limited label Scroll display
 
 
     pod 'DynamicLabel', '~> 0.0.3'
-   
+    
 # License
 
 DynamicLabel is available under the MIT license.
