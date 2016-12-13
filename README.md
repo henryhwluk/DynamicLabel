@@ -10,7 +10,8 @@ limited label Scroll display
 
 # Installation
 
-    pod 'DynamicLabel', '~> 0.0.3'
+
+     pod 'DynamicLabel', '~> 0.0.3'
    
 # License
 
