@@ -8,10 +8,10 @@ limited label Scroll display
 
 * cocoapods
 
+
 # Installation
 
-
-     pod 'DynamicLabel', '~> 0.0.3'
+    pod 'DynamicLabel', '~> 0.0.3'
    
 # License
 
